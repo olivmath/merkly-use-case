@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "merkly-use-case"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Oliveira <olivmath@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ape-solidity = "^0.8.4"
+ape-vyper = "^0.8.6"
+eth-ape = "^0.8.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
